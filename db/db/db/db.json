@@ -1,0 +1,121 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "drinks": [
+    {
+      "id": "1",
+      "title": "Fanta",
+      "company_name": "Coca-Cola",
+      "price": 7000,
+      "volume": "0.5L",
+      "type": "gazli",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h34/hb2/17290164731934/24172_main.jpg "
+    },
+    {
+      "id": "2",
+      "title": "Sprite",
+      "company_name": "Coca-Cola",
+      "price": 7000,
+      "volume": "0.5L",
+      "type": "gazli",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHLuCrbVkYWzEORm3r7BbwIgWxRRgRw4MD1g&s"
+    },
+    {
+      "id": "3",
+      "title": "Pepsi",
+      "company_name": "PepsiCo",
+      "price": 6500,
+      "volume": "0.5L",
+      "type": "gazli",
+      "image": "https://m.media-amazon.com/images/I/91LnEhnul6L._SL1500_.jpg"
+    },
+    {
+      "id": "4",
+      "title": "7UP",
+      "company_name": "PepsiCo",
+      "price": 6500,
+      "volume": "0.5L",
+      "type": "gazli",
+      "image": "https://knjaz.rs/wp-content/uploads/2023/02/7UP-0.5L-PET-img-min.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Aqua Minerale",
+      "company_name": "Coca-Cola",
+      "price": 5000,
+      "volume": "1L",
+      "type": "gazsiz",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h35/hf6/52441042124830/395064_main.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Red Bull",
+      "company_name": "Red Bull GmbH",
+      "price": 12000,
+      "volume": "0.25L",
+      "type": "gazli",
+      "image": "https://i5.walmartimages.com/seo/Red-Bull-Energy-Drink-114mg-Caffeine-12-fl-oz-Can_cc297042-66be-4db1-9ff0-e626f6c43322.d5c5ca669d0978adca72bf0c7504e6ed.jpeg"
+    },
+    {
+      "id": "7",
+      "title": "Lipton Ice Tea",
+      "company_name": "Unilever",
+      "price": 7500,
+      "volume": "0.5L",
+      "type": "gazsiz",
+      "image": "https://dutchshopper.com/cdn/shop/files/433342_3822353f-dfb3-4f23-b9fd-84b562cfd209.png?v=1736658943"
+    },
+    {
+      "id": "8",
+      "title": "Burn",
+      "company_name": "Coca-Cola",
+      "price": 11000,
+      "volume": "0.25L",
+      "type": "gazli",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCR5UDsQEzrDLEFRdY0qDqDBeRzDK4AOR9cA&s"
+    },
+    {
+      "id": "9",
+      "title": "Fuse Tea",
+      "company_name": "Coca-Cola",
+      "price": 7000,
+      "volume": "0.5L",
+      "type": "gazsiz",
+      "image": "https://dostavo4ka.uz/upload-file/2021/05/05/2130/750x750-6e7e29b5-8151-470b-a097-e690984abead.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Mountain Dew",
+      "company_name": "PepsiCo",
+      "price": 7000,
+      "volume": "0.5L",
+      "type": "gazli",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP_iqq7bwvlUYELLhsgiTsfMT31KPWYlk_XA&s"
+    }
+  ]
+}

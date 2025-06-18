@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Drinks from "./components/drinks"
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Drinks/>
+    </div>
   )
 }
 
