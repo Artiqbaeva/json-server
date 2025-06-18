@@ -80,6 +80,7 @@ const Drinks = () => {
   };
 
   return (
+    <>
     <div className="container mx-auto ">
       <div className="flex justify-between items-center my-4">
           <h2 className="text-2xl font-semibold">Drinks Management</h2>
@@ -204,7 +205,49 @@ const Drinks = () => {
           </Form>
         </Modal>
       )}
+    
     </div>
+    <footer className="w-full bg-gray-100 mt-20 py-8 border-t border-gray-300">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
+        {/* Left Section */}
+        <div>
+          <h3 className="text-xl font-semibold text-gray-800"> Drinks Hub</h3>
+          <p className="text-gray-500 text-sm mt-1">
+            Your go-to place for managing refreshing beverages!
+          </p>
+        </div>
+
+        {/* Center Section (optional) */}
+        <div className="text-gray-600 text-sm">
+          <p>&copy; {new Date().getFullYear()} Drinks Hub. All rights reserved.</p>
+        </div>
+
+        {/* Right Section (Social or Links) */}
+        <div className="flex gap-4">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            className="hover:text-pink-500 text-gray-600 transition"
+          >
+            Instagram
+          </a>
+          <a
+            href="https://t.me"
+            target="_blank"
+            className="hover:text-blue-500 text-gray-600 transition"
+          >
+            Telegram
+          </a>
+          <a
+            href="mailto:info@drinkshub.com"
+            className="hover:text-green-500 text-gray-600 transition"
+          >
+            Contact
+          </a>
+        </div>
+      </div>
+    </footer>
+    </>
   );
 };
 
