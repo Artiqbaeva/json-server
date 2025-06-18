@@ -137,72 +137,74 @@ const Drinks = () => {
           onCancel={handleCancel}
           footer={false}
         >
-          <Form
-            name="drinkForm"
-            initialValues={editItem}
-            onFinish={onFinish}
-            autoComplete="off"
-            layout="vertical"
-          >
-            <Form.Item
-              label="Drink Name"
-              name="title"
-              rules={[{ required: true, message: "Please enter the drink name" }]}
-            >
-              <Input />
-            </Form.Item>
+        <Form
+  name="drinkForm"
+  initialValues={editItem}
+  onFinish={onFinish}
+  autoComplete="off"
+  layout="vertical"
+>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <Form.Item
+      label="Drink Name"
+      name="title"
+      rules={[{ required: true, message: "Please enter the drink name" }]}
+    >
+      <Input />
+    </Form.Item>
 
-            <Form.Item
-              label="Company Name"
-              name="company_name"
-              rules={[{ required: true, message: "Please enter the company name" }]}
-            >
-              <Input />
-            </Form.Item>
+    <Form.Item
+      label="Company Name"
+      name="company_name"
+      rules={[{ required: true, message: "Please enter the company name" }]}
+    >
+      <Input />
+    </Form.Item>
 
-            <Form.Item
-              label="Price"
-              name="price"
-              rules={[{ required: true, message: "Please enter the price" }]}
-            >
-              <Input type="number" />
-            </Form.Item>
+    <Form.Item
+      label="Price"
+      name="price"
+      rules={[{ required: true, message: "Please enter the price" }]}
+    >
+      <Input type="number" />
+    </Form.Item>
 
-            <Form.Item
-              label="Volume (e.g. 0.5L)"
-              name="volume"
-              rules={[{ required: true, message: "Please enter the volume" }]}
-            >
-              <Input />
-            </Form.Item>
+    <Form.Item
+      label="Volume (e.g. 0.5L)"
+      name="volume"
+      rules={[{ required: true, message: "Please enter the volume" }]}
+    >
+      <Input />
+    </Form.Item>
 
-            <Form.Item
-              label="Type (e.g. carbonated, still)"
-              name="type"
-              rules={[{ required: true, message: "Please enter the type" }]}
-            >
-              <Input />
-            </Form.Item>
+    <Form.Item
+      label="Type (e.g. carbonated, still)"
+      name="type"
+      rules={[{ required: true, message: "Please enter the type" }]}
+    >
+      <Input />
+    </Form.Item>
 
-            <Form.Item
-              label="Image URL"
-              name="image"
-              rules={[{ required: true, message: "Please enter the image URL" }]}
-            >
-              <Input />
-            </Form.Item>
+    <Form.Item
+      label="Image URL"
+      name="image"
+      rules={[{ required: true, message: "Please enter the image URL" }]}
+    >
+      <Input />
+    </Form.Item>
+  </div>
 
-            <Form.Item>
-              <Button
-                loading={createLoading}
-                className="w-full"
-                type="primary"
-                htmlType="submit"
-              >
-                {editItem ? "Update" : "Create"}
-              </Button>
-            </Form.Item>
-          </Form>
+  <Form.Item className="mt-4">
+    <Button
+      loading={createLoading}
+      className="w-full rounded-xl"
+      type="primary"
+      htmlType="submit"
+    >
+      {editItem ? "Update" : "Create"}
+    </Button>
+  </Form.Item>
+</Form>
         </Modal>
       )}
     
